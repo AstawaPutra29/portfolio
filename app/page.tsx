@@ -29,7 +29,7 @@ export default function Home() {
     <>
     <HeaderHomeSection/>
     {/* banner */}
-    <div id='home' className='flex justify-between px-20 bg-blue-50'>
+    <div id='home' className='flex justify-between px-20 bg-blue-50 py-24'>
       <div className='flex flex-col justify-center items-center '>
           <p>Hi, i&apos;m</p>
           <p className='text-2xl md:text-5xl'>Astawa Putra</p>
@@ -39,7 +39,7 @@ export default function Home() {
     {/* banner */}
     {/* about */}
     <div id='about' className='py-16'>
-      <div className='flex flex-col justify-center px-10 py-3 md:py-52'>
+      <div className='flex flex-col justify-center px-10 py-32 md:py-52'>
           <h2 className='text-5xl text-center'>About</h2>
         <div className='text-center'>
           <p>Nama saya I Wayan Astawa Putra, biasa dipanggil Astawa. Saya berasal dari Karangasem, dan tinggal di Batubulan. Saya lahir di Denpasar, 29 Agustus 2006. Hobi saya yaitu menggambar.
@@ -51,7 +51,7 @@ export default function Home() {
     {/* End about */}
 
     {/* Contact */}
-    <div id='contact' className='bg-blue-50 px-5 py-7 md:py-52'>
+    <div id='contact' className='bg-blue-50 px-5 py-36 md:py-52'>
       <h2 className='text-5xl '>Contact</h2>
         {footers.map((footer) => (
           <div key={footer.key} className='flex items-center gap-4 py-3'>
