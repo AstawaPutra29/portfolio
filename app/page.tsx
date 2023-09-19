@@ -31,7 +31,7 @@ export default function Home() {
     {/* banner */}
     <div id='home' className='flex justify-between px-20 bg-blue-50'>
       <div className='flex flex-col justify-center items-center '>
-          <p>Hi, i'm</p>
+          <p>Hi, i&apos;m</p>
           <p className='text-2xl md:text-5xl'>Astawa Putra</p>
       </div>
       <Image src={'/images/ilustration.png'} width={400} height={400} alt='profile' className='rounded-full my-10'></Image>
